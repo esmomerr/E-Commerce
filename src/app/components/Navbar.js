@@ -9,12 +9,7 @@ export default function Navbar(){
         <div className="container">
             <header>
                 <nav className="navbar">
-                    <label className="burger desktop-hidden" for="burger">
-                        <input type="checkbox" id="burger" />
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
+                    <Image src="/menu-icon.svg" alt="menu-icon" className="desktop-hidden" width={24} height={24}></Image>
                     <Link href="/" className="logo">Sneakers</Link>
                     <ul className="items">
                         <li className="item"><Link href="" className="item">Collections</Link></li>

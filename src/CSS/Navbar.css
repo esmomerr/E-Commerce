@@ -6,7 +6,7 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    gap: 56px;
+    gap: 12px;
     margin-block: 28px;
 }
 
@@ -19,7 +19,7 @@ header{
 .right{
     display: flex;
     align-items: center;
-    gap: 46px;
+    gap: 12px;
 }
 
 .burger {
@@ -87,6 +87,9 @@ header{
 /* Desktop */
 @media(width >= 1000px){
     .desktop-hidden{display: none;}
+    .navbar{
+        gap: 56px;
+    }
     .items{
         display: flex;
         gap: 32px;  
@@ -95,5 +98,8 @@ header{
         font-size: 15px;
         font-weight: 400;
         color: #69707D;
+    }
+    .right{
+        gap: 46px;
     }
 }
