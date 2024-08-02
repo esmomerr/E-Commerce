@@ -1,0 +1,145 @@
+.product-details-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 125px;
+    margin-block: 25px;
+    padding-inline: 48px;
+}
+
+.thumbnail{display: none;}
+
+.product-category{
+    font-size: 13px;
+    font-weight: 700;
+    color: #FF7E1B;
+    margin-block-end: 27px;
+}
+
+.product-name{
+    font-size: 44px;
+    font-weight: 700;
+    color: #1D2026;
+    margin-block-end: 32px;
+
+}
+
+.product-details{
+    font-size: 16px;
+    font-weight: 400;
+    color: #69707D;
+    margin-block-end: 24px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-block-end: 32px;
+}
+
+.price-discount{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.product-price{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1D2026;
+}
+
+.discount{
+    background-color: #FFEEE2;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FF7E1B;
+    border-radius: 8px;
+}
+
+.discountPrice{
+    font-size: 16px;
+    font-weight: 700;
+    color: #B6BCC8;
+    text-decoration: line-through;
+}
+
+.order-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.add-to-card-btn{
+    border: none;
+    padding: 18px 76px;
+    background: #FF7E1B;
+    color: #FFEEE2;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.plus-minus{
+    display: flex;
+    align-items: center;
+    /* padding: 23px 16px; */
+}
+
+.minus-btn{
+    border: none;
+    color: #FF7E1B;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.quantity{
+    padding: 0 43px;
+}
+
+.plus-btn{
+    border: none;
+    color: #FF7E1B;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 12px;
+}
+
+/* Desktop */
+@media(width >= 1110px){
+    .product-details-page{
+        flex-direction: row;
+        margin-block: 91px;
+    }
+
+    .thumbnail{
+        display: flex;
+        gap: 31px;
+        margin-block-start: 32px;
+    }
+
+    .product-category{font-size: 12px; margin-block-end: 19px;}
+
+    .product-name{font-size: 28px; margin-block-end: 15px;}
+
+    .product-details{font-size: 15px; margin-block-end: 24px;}
+
+    .price{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .order-section{
+        flex-direction: row;
+        /* align-items: flex-start; */
+    }
+}

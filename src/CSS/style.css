@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+li{list-style-type: none;}
+
+.container{
+    max-width: 1280px;
+    padding-inline: 24px;
+    margin-inline: auto;
+}
+
